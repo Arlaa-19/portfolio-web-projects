@@ -1,0 +1,35 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  /* Font stack: Times New Roman diutamakan, diikuti oleh Times, dan serif sebagai fallback */
+}
+
+section {
+  min-height: 100vh;
+}
+
+.relative {
+  position: relative;
+}
+
+p {
+  line-height: normal;
+}
+.myborderB {
+  border-bottom: 2px solid black;
+}
+.myimg {
+  width: 100px;
+}
+.judul {
+  display: grid;
+  place-items: center;
+}
+.teks-judul {
+  text-align: center;
+  width: fit-content;
+}
+
+.teks-cetak {
+  text-align: justify;
+}
